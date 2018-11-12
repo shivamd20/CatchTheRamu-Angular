@@ -1,0 +1,60 @@
+
+
+
+<p [ngSwitch]="type" class="card" (click)="onClick(type)">
+
+
+    <ng-container *ngSwitchCase="2">
+
+
+        <ng-container *ngIf="hidden; else elseTemplate">
+
+            <mat-card-content>
+                <mat-card class="matcard" (click)="onClick(type)">
+                        <img mat-card-image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQly2VuEQ39I1r0AB_5oSf1sTP6pc9bXrOT4baRbWNdaAJCt4m6tQ" alt="Photo of a Shiba Inu">
+                        <!-- <span style="opacity: 0;">{{getText(type)}} </span> -->
+                    </mat-card>
+                </mat-card-content>
+
+
+        </ng-container>
+        <ng-template #elseTemplate>
+
+
+            <mat-card class="matcard" (click)="onClick(type)">
+                
+
+                    <img mat-card-image src="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1463049633/fivlbbkyt9a8yodqrqka.jpg" alt="Photo of a Shiba Inu">
+
+                <!-- {{getText(type)}} -->
+            </mat-card>
+
+
+        </ng-template>
+
+    </ng-container>
+
+    <ng-container *ngSwitchCase="1">
+
+
+        <mat-card class="matcard" (click)="onClick(type)">
+            <!-- <span style="opacity: 0;">{{getText(type)}} </span> -->
+            <img mat-card-image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQly2VuEQ39I1r0AB_5oSf1sTP6pc9bXrOT4baRbWNdaAJCt4m6tQ" alt="Photo of a Shiba Inu">
+        </mat-card>
+
+    </ng-container>
+
+    <ng-container *ngSwitchCase="0">
+
+
+
+        <mat-card class="matcard" style="opacity: 0;" (click)="onClick(type)">
+            <!-- <span>{{getText(type)}} </span> -->
+            <img mat-card-image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQly2VuEQ39I1r0AB_5oSf1sTP6pc9bXrOT4baRbWNdaAJCt4m6tQ" alt="Photo of a Shiba Inu">
+        </mat-card>
+
+    </ng-container>
+
+
+
+</p>
