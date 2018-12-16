@@ -1,0 +1,25 @@
+
+
+<h1 class="head">
+
+  CHOOSE GAME
+</h1>
+<mat-grid-list cols="2"  class="gridlist">
+  <mat-grid-tile *ngFor="let game of games">
+    
+    
+<mat-card class="card"  (click)="gotoUrl(game.url)">
+  
+
+    
+{{game.title}}
+
+</mat-card>
+  
+  
+  
+  </mat-grid-tile>
+ 
+
+</mat-grid-list>
+

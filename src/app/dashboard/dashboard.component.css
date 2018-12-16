@@ -1,0 +1,38 @@
+.gridlist{
+
+  
+    margin-top: auto;
+    display: block;
+ 
+
+}
+
+.head{
+
+    margin: 20 auto;
+    text-align: center;
+    color: wheat;
+}
+
+
+body{
+
+    background-image : linear-gradient(red, black);
+
+}
+.card{
+
+    padding-top: 50px;
+    min-width: 100px;
+    text-align: center;
+    min-height: 50px;
+    display: inline-table;
+    vertical-align: middle;
+}
+
+.card:hover{
+
+    transform: scale(1.5);
+    box-shadow: 5px 10px red;
+    box-shadow: -6px 14px 161px -7px rgba(77,51,77,1);
+}
