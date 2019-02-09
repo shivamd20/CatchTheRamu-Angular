@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-dashboard',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class DashboardComponent implements OnInit {
 
   games:Array<Object> = [{
-    url : "/CatchTheRamu-Angular/",
+    url : "this",
     title : 'Catch The Ramu'
 
   },{
@@ -20,12 +21,18 @@ title: "Tic Tac Toe"
   gotoUrl(url){
 
 
+    if(url == 'this'){
+
+
+      this.route.navigateByUrl('/game')
+
+    }else
     window.location = url;
 
 
   }
 
-  constructor() { }
+  constructor( private route:Router) { }
 
   ngOnInit() {
   }
