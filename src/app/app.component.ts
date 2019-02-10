@@ -3,45 +3,51 @@
  *  author = shivam
  * else 
  *  author = my cat
+ * 
+ * AB: Why ?? Why this comment ? It does'nt make any sense..
+ * Why your cat is all over the place in your code ??
  *  */
 
-
-
-//  sometimes my cat opens my macbook to track mouses, so just to be sure
+//  sometimes my cat opens my macbook to track rats, so just to be sure that it is written by me.
 
 const NOTHING = eval("{} + []"); 
 
 /**
  * What does this code do?
  * It computes to zero
- * why did you wrote that
- * I thought that addition of object and array were supposed to do that so i wrote it.
+ * why did you write this line ?
+ * Everything starts and ends with zero. And i'm using this 
+ * to go to the initial stage of our game just like end of universe
  */
 
-const EVERY_ONE_S_GOD = true + NOTHING;
+const SABKA_MALIK_EK = true + NOTHING;
  /** What does this code do?
   * It computes to one
+  * Shivam: As you know that nothing can be greater than truth and truth is the only almighty
 * 
 */ 
 
-const RAMU_HOME = { _: EVERY_ONE_S_GOD + EVERY_ONE_S_GOD, __: EVERY_ONE_S_GOD + EVERY_ONE_S_GOD }; // 38° 53' 51.635" N 77° 2' 11.507" W
+const RAMU_KA_GHAR = { _: SABKA_MALIK_EK + SABKA_MALIK_EK, __: SABKA_MALIK_EK + SABKA_MALIK_EK }; 
+// 38° 53' 51.635" N 77° 2' 11.507" W
  /** Why this comment?
-* That's my home location's co-ordinate.
-* But that should be ramu's home co-ordinate.
+* That's my home's location co-ordinates.
+* But that should be ramu's home's co-ordinates.
 * You should watch shaktimaan then you will know it
 */ 
 
-const ಠ_ಠ = { _:EVERY_ONE_S_GOD , __: 2, }; //38° 53' 51.635" N 77° 2' 11.507" W
+const ಠ_ಠ = { _:SABKA_MALIK_EK , __: 2, }; //38° 53' 51.635" N 77° 2' 11.507" W
 
 /**
- * RAMU's neghour's aunty who always snoops him.
+ * RAMU's neighbour's aunty who always snoops him.
  */
 
-const RAMU_KA_ADOSI =  { _:EVERY_ONE_S_GOD + EVERY_ONE_S_GOD , __: EVERY_ONE_S_GOD, };
+const RAMU_KA_ADOSI =  { _:SABKA_MALIK_EK + SABKA_MALIK_EK , __: SABKA_MALIK_EK, };
 
 
-const GOD_HOME = { _: 1, __: 2 }
+const BhagwanKaGhar = { _: 1, __: 2 }
+
 /**
+ * AB : Now 
  * He is uparwala
  */
 
@@ -71,20 +77,20 @@ export class AppComponent{
     return new Promise(resolve => setTimeout(resolve, ms));
   } 
 
-  openSnackBar(message: string, action: string) {
+  khanekaBarKholo(message: string, action: string) {
     this.snackBar.open(message, action, {
       duration: 2000,
       verticalPosition:'bottom'
     });
   }
 
-  cardClicked(e){
+  tickleCard(e){
 
     if(!this.hidden || this.isShuffling || e == CardType.NORMAL) return;
 
     if(e==CardType.RAMU) {
       
-      this.openSnackBar(" aye aye!!!!! Hopeless..",eval("[]+[]"));
+      this.khanekaBarKholo(" aye aye!!!!! Hopeless..",eval("[]+[]"));
 
       this.level++;
 
@@ -96,7 +102,7 @@ export class AppComponent{
   
   }
  
-  this.openSnackBar("Pathetic, Disgusting.."," ");
+  this.khanekaBarKholo("Pathetic, Disgusting.."," ");
     this.hidden=false;
     this.level=1;
     this.waitDuration=300;
@@ -104,7 +110,7 @@ export class AppComponent{
   }
 
   moveLeftCardToRightClockWise(fn) {
-    var mat = this.move({ _: 1, __: NOTHING }, { _: NOTHING, __: NOTHING, });
+    var mat = this.move({ _: 1, __: NOTHING }, { _: NOTHING, __: NOTHING, }); 
 
     this.sleep(this.waitDuration).then(() => {
 
@@ -116,7 +122,7 @@ export class AppComponent{
 
         this.sleep(this.waitDuration).then(() => {
 
-          var mat = this.move(GOD_HOME, { _: 2, __: 2, });
+          var mat = this.move(BhagwanKaGhar, { _: 2, __: 2, });
 
           this.sleep(this.waitDuration).then(() => {
 
@@ -124,7 +130,7 @@ export class AppComponent{
 
             this.sleep(this.waitDuration).then(() => {
 
-              var mat = this.move(RAMU_HOME, { _: 2, __: 1, });
+              var mat = this.move(RAMU_KA_GHAR, { _: 2, __: 1, });
 
               this.sleep(this.waitDuration).then(() => {
 
@@ -236,7 +242,7 @@ export class AppComponent{
   }
 
 moveCardRightToLeft(fn){
-  var mat = this.move(GOD_HOME, { _: NOTHING, __: 2, });
+  var mat = this.move(BhagwanKaGhar, { _: NOTHING, __: 2, });
 
   this.sleep(this.waitDuration).then(() => {
 
@@ -260,7 +266,7 @@ moveCardRightToLeft(fn){
 
             this.sleep(this.waitDuration).then(() => {
 
-              var mat = this.move(RAMU_HOME, ಠ_ಠ);
+              var mat = this.move(RAMU_KA_GHAR, ಠ_ಠ);
 
               this.sleep(this.waitDuration).then(() => {
 
@@ -299,11 +305,11 @@ moveCenterToRight(fn){
 
     this.sleep(this.waitDuration).then(() => {
 
-      this.move(GOD_HOME, { _: NOTHING, __: 2, });
+      this.move(BhagwanKaGhar, { _: NOTHING, __: 2, });
 
       this.sleep(this.waitDuration).then(() => {
 
-        var mat = this.move(RAMU_HOME, ಠ_ಠ);
+        var mat = this.move(RAMU_KA_GHAR, ಠ_ಠ);
 
         this.sleep(this.waitDuration).then(() => {
 
