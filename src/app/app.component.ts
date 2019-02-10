@@ -39,7 +39,12 @@ const ಠ_ಠ = { _:EVERY_ONE_S_GOD , __: 2, }; //38° 53' 51.635" N 77° 2' 11.
 
 const RAMU_KA_ADOSI =  { _:EVERY_ONE_S_GOD + EVERY_ONE_S_GOD , __: EVERY_ONE_S_GOD, };
 
+
 const GOD_HOME = { _: 1, __: 2 }
+/**
+ * He is uparwala
+ */
+
 
 import { Component } from '@angular/core';
 import { Grid, CardType } from './model/grid';
