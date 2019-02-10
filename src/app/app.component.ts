@@ -6,7 +6,7 @@
  * 
  * AB: Why ?? Why this comment ? It does'nt make any sense..
  * Why your cat is all over the place in your code ??
- *  */
+ *  */ 
 
 //  sometimes my cat opens my macbook to track rats, so just to be sure that it is written by me.
 
@@ -23,7 +23,7 @@ const NOTHING = eval("{} + []");
 const SABKA_MALIK_EK = true + NOTHING;
  /** What does this code do?
   * It computes to one
-  * Shivam: As you know that nothing can be greater than truth and truth is the only almighty
+  * Shivam: As you know that nothing can be greater than truth and truth is the only authority
 * 
 */ 
 
@@ -38,7 +38,7 @@ const RAMU_KA_GHAR = { _: SABKA_MALIK_EK + SABKA_MALIK_EK, __: SABKA_MALIK_EK + 
 const ಠ_ಠ = { _:SABKA_MALIK_EK , __: 2, }; //38° 53' 51.635" N 77° 2' 11.507" W
 
 /**
- * RAMU's neighbour's aunty who always snoops him.
+ * RAMU's neighbour's aunty who always snoops him for no reason.
  */
 
 const RAMU_KA_ADOSI =  { _:SABKA_MALIK_EK + SABKA_MALIK_EK , __: SABKA_MALIK_EK, };
